@@ -16,5 +16,6 @@ export const CustomAuthChecker: AuthChecker<Context> = ({
   context: { user },
   info,
 }) => {
+  console.log("some info");
   return false;
 };
